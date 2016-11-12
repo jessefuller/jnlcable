@@ -24,6 +24,7 @@
 
     <!-- Theme CSS -->
     <link href="css/creative.min.css" rel="stylesheet">
+        <script src="props/properties.js"></script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -43,7 +44,7 @@
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">JNL Cable</a>
+                <a class="navbar-brand page-scroll" href="#page-top"><script>document.write(title)</script></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -71,10 +72,10 @@
     <header>
         <div class="header-content">
             <div class="header-content-inner">
-                <h1 id="homeHeading">JNL Cable</h1>
+                <h1 id="homeHeading"><script>document.write(section1_title)</script></h1>
                 <hr>
-                <p>Custom cables manufactured with top quality care and precision.  Delivering the products you need with quick turn around and our service guarantee, resulting in lower overall costs and higher value.</p>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+                <p><script>document.write(section1_description)</script></p>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll"><script>document.write(section1_link)</script></a>
             </div>
         </div>
     </header>
@@ -83,10 +84,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">We've got what you need!</h2>
+                    <h2 class="section-heading"><script>document.write(section2_title)</script></h2>
                     <hr class="light">
-                    <p class="text-faded">JNL Cable has everything you need to get your new wires and cables connected in no time! Fast and reliable service.</p>
-                    <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a>
+                    <p class="text-faded"><script>document.write(section2_description)</script></p>
+                    <a href="#services" class="page-scroll btn btn-default btn-xl sr-button"><script>document.write(section2_link)</script></a>
                 </div>
             </div>
         </div>
@@ -96,7 +97,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">At Your Service</h2>
+                    <h2 class="section-heading"><script>document.write(section3_title)</script></h2>
                     <hr class="primary">
                 </div>
             </div>
@@ -106,34 +107,34 @@
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-bolt text-primary sr-icons"></i>
-                        <h3>Quick Service</h3>
-                        <p class="text-muted">Lightning fast product.</p>
+                        <h3><script>document.write(section3_col1_title)</script></h3>
+                        <p class="text-muted"><script>document.write(section3_col1_description)</script></p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-money text-primary sr-icons"></i>
-                        <h3>Reliable Cost</h3>
-                        <p class="text-muted">Quality parts at the fraction of the cost.</p>
+                        <h3><script>document.write(section3_col2_title)</script></h3>
+                        <p class="text-muted"><script>document.write(section3_col2_description)</script></p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-code-fork text-primary sr-icons"></i>
-                        <h3>Effective</h3>
-                        <p class="text-muted">Effective use for any product.</p>
+                      <h3><script>document.write(section3_col3_title)</script></h3>
+                        <p class="text-muted"><script>document.write(section3_col3_description)</script></p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-exchange text-primary sr-icons"></i>
-                        <h3>High Quality</h3>
-                        <p class="text-muted">Made to handle it all.</p>
+                       <h3><script>document.write(section3_col4_title)</script></h3>
+                        <p class="text-muted"><script>document.write(section3_col4_description)</script></p>
                     </div>
                 </div>
             </div>
             <div class="col-lg-8 col-lg-offset-2 text-center">
-             <a href="#contact" class="btn btn-primary btn-xl page-scroll">Contact us</a>
+             <a href="#contact" class="btn btn-primary btn-xl page-scroll"><script>document.write(section3_link)</script></a>
          </div>
         </div>
     </section>
@@ -239,18 +240,18 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Let's Get In Touch!</h2>
+                    <h2 class="section-heading"><script>document.write(section4_title)</script></h2>
                     <hr class="primary">
-                    <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+                    <p><script>document.write(section4_description)</script></p>
                 </div>
                 <div class="col-lg-4 col-lg-offset-2 text-center">
                     <i class="fa fa-phone fa-3x sr-contact"></i>
-                    <p>858-537-7098</p>
+                    <p><script>document.write(section4_phone)</script></p>
                 </div>
                 <div class="col-lg-4 text-center">
                     <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-                    <p><a href="mailto:jfuller@jnlcable.com">jfuller@jnlcable.com</a></p>
-                     <p><a href="mailto:lnguyn@@jnlcable.com">lnguyn@jnlcable.com</a></p>
+                    <p><a href="mailto:jfuller@jnlcable.com"><script>document.write(section4_email1)</script></a></p>
+                     <p><a href="mailto:lnguyn@@jnlcable.com"><script>document.write(section4_email2)</script></a></p>
                 </div>
             </div>
         </div>
