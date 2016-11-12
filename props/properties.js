@@ -1,4 +1,4 @@
-title="JNL Cables"
+title="JNL Cable"
 
 section1_title="JNL CABLE"
 section1_description="Custom cables manufactured with top quality care and precision.  Delivering the products you need with quick turn around and our service guarantee, resulting in lower overall costs and higher value."
